@@ -1,0 +1,83 @@
+*{
+    font-family: 'Chewy', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+     }
+    body{
+         
+       background-size: cover;
+    }
+   
+    .avatar {
+      margin-top: 2%;
+      width: 50px; /* Adjust as needed */
+      height: auto; /* Keep the aspect ratio */
+    }
+  .logotext{
+    margin-top: 2%;
+    margin-left: 5%;
+    justify-content: space-between;
+  }
+  .logotext a {
+    
+    font-family: 'Chewy', cursive;
+    font-size: 50px;
+    color: #7300D2;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-top: 5%;
+
+    margin-left: 35%;
+    
+  }
+  
+  .input {
+    width: 500px;
+    height: 50px;
+    padding: 0 1rem;
+    color: #000000;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #5e5dcd;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+  .thd p{
+    margin-top: 10%;
+    font-size: 40px;
+    margin-left: 35%;
+}
+.thd i{
+font-size: 200px;
+margin-left: 43%;
+} 
